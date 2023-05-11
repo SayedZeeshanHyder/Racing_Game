@@ -122,6 +122,7 @@ function comp(){
     else{
         document.getElementById("txt").innerHTML="CPU has Already Played Its your Turn Roll Your Dice !";
     }
+    p=1;
     if(pos1>70)
     {
         p=2;
@@ -129,6 +130,7 @@ function comp(){
     if(p==2)
     {
         document.getElementById("txt").innerHTML="CPU Wins !";
+        document.getElementById("rollbutt").style="display : none";
+        document.getElementById("comp").style="display : none";
     }
-    p=1;
 }
