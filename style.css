@@ -1,0 +1,28 @@
+.racecar{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+}
+.dice{
+    width: 100px;
+    height: 100px;
+}
+.anim{
+    margin: 10px;
+    padding: 5px;
+    background-image: url('https://media.istockphoto.com/id/1161948652/vector/straight-empty-road-through-the-countryside-green-hills-blue-sky-meadow-and-mountains.jpg?s=612x612&w=is&k=20&c=ipCaDVWjv1flOg904jPXM3I3qXOnXK0NHT7_Jt4KG88=');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.scores{
+    margin: 10px;
+    padding: 5px;
+}
+.finish{
+    right: 22%;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+}
